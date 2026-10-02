@@ -1,0 +1,562 @@
+{
+  "parameters": {
+    "matrix_width": 1536,
+    "matrix_height": 1920,
+    "master_width": 3072,
+    "master_height": 3840,
+    "fps": 30,
+    "movie_seconds": 6,
+    "title_lines": [
+      "Houdini",
+      "Lorem Ipsum"
+    ],
+    "active_subtitle_key": "archive_garamond",
+    "title_gradient_stops": [
+      [
+        0.0,
+        [
+          153,
+          248,
+          211
+        ]
+      ],
+      [
+        1.0,
+        [
+          118,
+          162,
+          208
+        ]
+      ]
+    ],
+    "title_gradient_angle_deg": -8.0,
+    "title_shadow": {
+      "color": [
+        0,
+        0,
+        0,
+        230
+      ],
+      "offset": 18,
+      "blur": 8
+    },
+    "title_y": [
+      540,
+      715
+    ],
+    "title_line1_size": 170,
+    "title_line2_size": 62,
+    "title_tracking_em": 0.1,
+    "title_word_space_multiplier": 2.2,
+    "title_safe_width": 0.92,
+    "subtitle_lines": [
+      "depending on the shot you want to make,",
+      "even a 3D shot,"
+    ],
+    "subtitle_y": [
+      2960,
+      3150
+    ],
+    "subtitle_size": 120,
+    "subtitle_min_size": 80,
+    "subtitle_max_width": 0.87,
+    "subtitle_word_space": 32,
+    "subtitle_shadow": {
+      "color": [
+        0,
+        0,
+        0,
+        230
+      ],
+      "offset": 36,
+      "blur": 16
+    },
+    "subtitle_fade_in": 0.3,
+    "subtitle_fade_out": 0.4,
+    "subtitle_canon_delay": 0.22,
+    "subtitle_segment_start": 0.65,
+    "subtitle_segment_duration": 2.3,
+    "background_reveal_seconds": 0.85,
+    "background_reveal_edge_width": 0.035,
+    "background_fade_seconds": 0.18,
+    "background_glow_blur": 36,
+    "background_glow_opacity": 0.24,
+    "background_particle_count": 650,
+    "background_particle_radius": [
+      2,
+      10
+    ],
+    "background_particle_travel": 90,
+    "background_crossfade_seconds": 0.4,
+    "background_switch_seconds": 3.0,
+    "matrix_sheet_name": "contact-sheet-v3-background-variants.png",
+    "font_variants_sheet_name": "font-variants-4k-contact-sheet.png",
+    "movie_name": "subtitle-background-canon.mov",
+    "mp4_name": "subtitle-background-canon.mp4"
+  },
+  "title_fonts": {
+    "sf_pro_display": {
+      "label": "SF Pro Display Bold",
+      "path": "/Users/zenray/Library/Fonts/SF-Pro-Display-Bold.otf",
+      "uppercase": true
+    },
+    "alize_bold_caps": {
+      "label": "Alize Bold Caps",
+      "path": "/Users/zenray/Library/Fonts/alize-bold.ttf",
+      "uppercase": true
+    },
+    "gt_sectra": {
+      "label": "GT Sectra Bold",
+      "path": "/Users/zenray/Library/Fonts/GT-Sectra-LCGV-Bold.otf",
+      "uppercase": true
+    }
+  },
+  "subtitle_fonts": {
+    "inter_tight_bold_italic": {
+      "label": "Inter Tight Bold Italic",
+      "path": "/Users/zenray/Library/Fonts/InterTight-Italic-VariableFont_wght.ttf",
+      "axes": [
+        700
+      ]
+    },
+    "yumincho_bold": {
+      "label": "YuMincho Bold",
+      "path": "/Users/zenray/Library/Fonts/YuMincho.ttc",
+      "index": 2
+    },
+    "alize_bold": {
+      "label": "Alize Bold",
+      "path": "/Users/zenray/Library/Fonts/alize-bold.ttf"
+    },
+    "archive_garamond": {
+      "label": "Archive Garamond Bold Italic",
+      "path": "/Users/zenray/Library/Fonts/ArchiveGaramondStd-BoldItalic.ttf"
+    }
+  },
+  "active_subtitle_font": {
+    "label": "Archive Garamond Bold Italic",
+    "path": "/Users/zenray/Library/Fonts/ArchiveGaramondStd-BoldItalic.ttf"
+  },
+  "subtitle_colors": {
+    "white": [
+      255,
+      255,
+      255
+    ],
+    "yellow": [
+      255,
+      235,
+      20
+    ],
+    "blue_hint": [
+      129,
+      225,
+      251
+    ],
+    "red_hint": [
+      236,
+      121,
+      114
+    ]
+  },
+  "backgrounds": {
+    "blue_layer_01": {
+      "label": "Blue layer 01",
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/img-blue-layer-01.png",
+      "base_rgb": [
+        8,
+        20,
+        30
+      ],
+      "particle_rgb": [
+        129,
+        225,
+        251
+      ],
+      "center_y": 0.79,
+      "seed": 1101
+    },
+    "red_layer_02": {
+      "label": "Red layer 02",
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/img-red-layer-02.png",
+      "base_rgb": [
+        28,
+        9,
+        16
+      ],
+      "particle_rgb": [
+        236,
+        121,
+        114
+      ],
+      "center_y": 0.79,
+      "seed": 2202
+    }
+  },
+  "matrix_count": 24,
+  "matrix_entries": [
+    {
+      "index": 1,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/001_blue_layer_01_sf_pro_display_archive_garamond_white.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "white",
+      "color_short": "white"
+    },
+    {
+      "index": 2,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/002_blue_layer_01_sf_pro_display_archive_garamond_yellow.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "yellow",
+      "color_short": "yellow"
+    },
+    {
+      "index": 3,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/003_blue_layer_01_sf_pro_display_archive_garamond_blue_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 4,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/004_blue_layer_01_sf_pro_display_archive_garamond_red_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 5,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/005_blue_layer_01_alize_bold_caps_archive_garamond_white.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "white",
+      "color_short": "white"
+    },
+    {
+      "index": 6,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/006_blue_layer_01_alize_bold_caps_archive_garamond_yellow.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "yellow",
+      "color_short": "yellow"
+    },
+    {
+      "index": 7,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/007_blue_layer_01_alize_bold_caps_archive_garamond_blue_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 8,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/008_blue_layer_01_alize_bold_caps_archive_garamond_red_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 9,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/009_blue_layer_01_gt_sectra_archive_garamond_white.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "white",
+      "color_short": "white"
+    },
+    {
+      "index": 10,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/010_blue_layer_01_gt_sectra_archive_garamond_yellow.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "yellow",
+      "color_short": "yellow"
+    },
+    {
+      "index": 11,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/011_blue_layer_01_gt_sectra_archive_garamond_blue_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 12,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/012_blue_layer_01_gt_sectra_archive_garamond_red_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 13,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/013_red_layer_02_sf_pro_display_archive_garamond_white.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "white",
+      "color_short": "white"
+    },
+    {
+      "index": 14,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/014_red_layer_02_sf_pro_display_archive_garamond_yellow.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "yellow",
+      "color_short": "yellow"
+    },
+    {
+      "index": 15,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/015_red_layer_02_sf_pro_display_archive_garamond_blue_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 16,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/016_red_layer_02_sf_pro_display_archive_garamond_red_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 17,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/017_red_layer_02_alize_bold_caps_archive_garamond_white.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "white",
+      "color_short": "white"
+    },
+    {
+      "index": 18,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/018_red_layer_02_alize_bold_caps_archive_garamond_yellow.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "yellow",
+      "color_short": "yellow"
+    },
+    {
+      "index": 19,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/019_red_layer_02_alize_bold_caps_archive_garamond_blue_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 20,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/020_red_layer_02_alize_bold_caps_archive_garamond_red_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 21,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/021_red_layer_02_gt_sectra_archive_garamond_white.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "white",
+      "color_short": "white"
+    },
+    {
+      "index": 22,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/022_red_layer_02_gt_sectra_archive_garamond_yellow.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "yellow",
+      "color_short": "yellow"
+    },
+    {
+      "index": 23,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/023_red_layer_02_gt_sectra_archive_garamond_blue_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 24,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/matrix/024_red_layer_02_gt_sectra_archive_garamond_red_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    }
+  ],
+  "font_variant_count": 6,
+  "font_variant_entries": [
+    {
+      "index": 1,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/frames/font-variants/01_blue_layer_01_sf_pro_display_archive_garamond_blue_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 2,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/frames/font-variants/02_blue_layer_01_alize_bold_caps_archive_garamond_blue_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 3,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/frames/font-variants/03_blue_layer_01_gt_sectra_archive_garamond_blue_hint.png",
+      "background": "blue_layer_01",
+      "background_short": "BLUE",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "blue_hint",
+      "color_short": "blue"
+    },
+    {
+      "index": 4,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/frames/font-variants/04_red_layer_02_sf_pro_display_archive_garamond_red_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "SF Pro Display Bold",
+      "title_short": "sf pro display",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 5,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/frames/font-variants/05_red_layer_02_alize_bold_caps_archive_garamond_red_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "Alize Bold Caps",
+      "title_short": "alize bold caps",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    },
+    {
+      "index": 6,
+      "path": "/Users/zenray/Downloads/materials-copernicus-exercize/tmp-layer/texture-black-white/shorts/style-v3-background-variants/frames/font-variants/06_red_layer_02_gt_sectra_archive_garamond_red_hint.png",
+      "background": "red_layer_02",
+      "background_short": "RED",
+      "title_font": "GT Sectra Bold",
+      "title_short": "gt sectra",
+      "subtitle_font": "Archive Garamond Bold Italic",
+      "subtitle_short": "archive garamond",
+      "subtitle_color": "red_hint",
+      "color_short": "red"
+    }
+  ]
+}

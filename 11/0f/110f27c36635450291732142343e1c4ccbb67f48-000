@@ -1,0 +1,19 @@
+# style-v4-background-variants : feedback, prompts and rules (append only)
+
+## Prompt log
+- 2026-09-19 00:48 : go push sur le site directement tous ces assets sans exceptions, avec les finaux en evidence
+- 2026-09-19 18:45 : Ajoute un troisième style avec le jaune, même style que les deux précédents, juste le background, déplace saveimg.png proprement dans le dossier V4, puis pousse avec zenray-assets-upload.
+- 2026-09-19 20:24 : Quand je demande de faire un short, le pipeline reprend le style V3 au lieu du style V4 avec backgrounds. Diagnostiquer le routage et la source de vérité.
+- 2026-09-19 20:42 : Correction demandee : conserver dans le skill uniquement les trois assets backgrounds V4 bleu, rouge et jaune, avec short-editor-v4 et index propre.
+- 2026-09-19 20:52 : Ajout du theme noir a partir de ref_grayscale_direct.png et sauvegarde Ctrl-S completee.
+
+## Order of work
+
+## Standing rules
+
+## Log
+- 2026-09-18 23:48 : Style V4 créé dans un nouveau dossier pour préserver V3. Le titre est multiplié par 1.25. La matrice et les frames 4K couvrent 3 fontes en Caps Lock, 3 couleurs de titre dont blanc et gris, et 4 couleurs de sous-titre dont blanc et jaune avec Archive Garamond. Le MOV garde les deux backgrounds, supprime le balayage gauche droite et les ombres, puis anime chaque ligne en canon avec fondu de sortie.
+- 2026-09-19 00:48 : Upload terminé : le bundle V4, les trois scripts et les deux backgrounds renommés sont dans ZenRay Assets ; 167/167 fichiers vérifiés dans Create et 167/167 chemins indexés. Les deux finaux restent dans v4/final-2-outputs.
+- 2026-09-19 18:45 : Troisième style jaune généré et uploadé dans le projet V4 existant. Le source devient background-assets/yellow_layer_03.png et le dossier final contient maintenant trois frames 3072 x 3840.
+- 2026-09-19 20:42 : Correction appliquee : les references ref_height_density.png et ref_grayscale_direct.png, les alphas, le script alpha et la matrice complete sont sortis du dossier canonique et conserves dans .claude/tmp. Le bundle du skill contient 3 backgrounds, 3 preuves finales, 2 scripts, README et ASSET_INDEX.
+- 2026-09-19 20:52 : Le V4 canonique passe a quatre backgrounds : bleu, rouge, jaune et noir. black_layer_04 est indexe, genere par le script local et documente dans Houdini1.md.

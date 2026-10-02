@@ -1,0 +1,23 @@
+# V3 background and subtitle style exploration
+
+This folder contains 24 image variants built from the last short style.
+
+The matrix is rendered at 1536 x 1920 for fast comparison. The two selected frames are rendered at the canonical 3072 x 3840 portrait size. The MOV lasts 6 seconds at 30 fps and shows the blue layer first, then the red layer, with a fast left-to-right particle reveal and Canon subtitle timing.
+
+Title variants: SF Pro Display Bold, Alize Bold Caps, and GT Sectra Bold.
+
+Subtitle template: Archive Garamond Bold Italic.
+
+Subtitle colors: white, yellow, #81e1fb for blue, and #ec7972 for red.
+
+The source names are preserved as `img-blue-layer-01.png` and `img-red-layer-02.png`. The prepared copies and alpha masks live in `background-assets/`.
+
+Files:
+
+* `contact-sheet-v3-background-variants.png` contains the complete comparison sheet.
+* `font-variants-4k-contact-sheet.png` contains all 6 high-resolution title and color combinations.
+* `frames/font-variants/` contains the 6 high-resolution title and color combinations.
+* `frames/frame-blue-style-v3.png` and `frames/frame-red-style-v3.png` use the SF Pro title in caps and the selected Archive Garamond subtitle template.
+* `video/subtitle-background-canon.mov` is the MOV requested for the subtitle and background animation.
+* `video/subtitle-background-canon.mp4` is a browser-friendly companion.
+* `metadata.json` and `metadata.csv` record every generated choice.
